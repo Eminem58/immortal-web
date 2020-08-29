@@ -15,23 +15,23 @@
   </div>
 </template>
 <script>
-  import Confirm from '../sub/Confirm'
-  export default {
-    name: "Test",
-    components: {Confirm},
-    data() {
-      return {
-        msg: "test vue"
-      }
-    },
-    mounted: {},
-    methods: {
-      getMessage(val){
-        alert(val)
-      }
-    },
-    watch: {}
-  }
+import Confirm from '../sub/Confirm'
+export default {
+  name: 'Test',
+  components: {Confirm},
+  data () {
+    return {
+      msg: 'test vue'
+    }
+  },
+  mounted: {},
+  methods: {
+    getMessage (val) {
+      alert(val)
+    }
+  },
+  watch: {}
+}
 </script>
 <style>
 

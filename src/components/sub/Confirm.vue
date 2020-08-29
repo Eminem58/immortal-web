@@ -4,23 +4,23 @@
   </div>
 </template>
 <script>
-  export default {
-    name: "confirm-button",
-    props: ["text", "a"],
-    comments: {},
-    data() {
-      return {
-        msg: "hh"
-      }
-    },
-    mounted: {},
-    methods: {
-      getButtonClick() {
-        this.$emit("message", this.msg)
-      }
-    },
-    watch: {}
-  }
+export default {
+  name: 'confirm-button',
+  props: ['text'],
+  comments: {},
+  data () {
+    return {
+      msg: 'hh'
+    }
+  },
+  mounted: {},
+  methods: {
+    getButtonClick () {
+      this.$emit('message', this.msg)
+    }
+  },
+  watch: {}
+}
 </script>
 <style>
 
